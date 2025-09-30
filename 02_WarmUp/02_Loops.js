@@ -1,8 +1,23 @@
-function loops(){
-    for(let i=0;i<3;i++){
-        console.log("Hello world")
-    }
+// function loops(){
+//     for(let i=5;i>0;i--){
+//         console.log("Hello world", i)
+//     }
+// }
+// loops()
+
+//print all even numbers
+let arr = [2, 3, 4, 5, 6, 7, 8, 9];
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] % 2 == 0) {
+    console.log(arr[i]);
+  }
 }
-loops()
 
-
+// //while loop
+// let i = 0;
+// while (i < arr.length) {
+//   if (arr[i] % 2 == 0) {
+//     console.log(arr[i]);
+//   }
+//   i++;
+// }
